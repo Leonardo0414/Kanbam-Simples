@@ -1,0 +1,111 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+/* BARR  */
+.navbar {
+    background-color: #0056b3; 
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+/* COLUNAS */
+.colunas-tarefas {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.coluna {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* BOTOES */
+.btn-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0056b3;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+
+/* FORMULARIOS */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* LABEL */
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333; 
+}
+
+/* CAMPOS */
+input, select, button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
